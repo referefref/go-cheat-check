@@ -24,7 +24,7 @@ To install go-cheat-check, follow these steps:
 
 3. Install the required Python packages:
    ```
-   pip install openai
+   pip install -r requirements.txt
    ```
 
 4. Set up your OpenAI API key:
@@ -33,6 +33,26 @@ To install go-cheat-check, follow these steps:
      ```
      OPENAI_API_KEY=your_api_key_here
      ```
+
+   Example `.env` file:
+   ```
+   # OpenAI API Key
+   OPENAI_API_KEY=sk-your_openai_api_key_here
+
+   # Optional: OpenAI API Organization ID (if you're using one)
+   # OPENAI_ORG_ID=org-your_organization_id_here
+
+   # Optional: Set the model to use (default is gpt-4)
+   # OPENAI_MODEL=gpt-4
+
+   # Optional: Set the maximum number of tokens to generate (default is 150)
+   # MAX_TOKENS=150
+
+   # Optional: Set the temperature for response generation (default is 0.7)
+   # TEMPERATURE=0.7
+   ```
+
+   Replace `sk-your_openai_api_key_here` with your actual OpenAI API key. The other fields are optional and can be uncommented and configured as needed.
 
 ## Usage
 
