@@ -1,4 +1,4 @@
-# go-cheat-check
+![image](https://github.com/user-attachments/assets/1af47062-0bff-4367-9df0-56926f601b6f)
 
 go-cheat-check is a tool designed to generate Go code examples and compare them against suspected generated code. This system is particularly useful for technical interview questions and software development learning scenarios.
 
@@ -65,6 +65,9 @@ python compare.py ./submitted_code.go ./generated_examples/generated_code_1.go .
 ```
 
 This will compare `submitted_code.go` against the two generated example files and provide similarity scores for various aspects of the code.
+
+![image](https://github.com/user-attachments/assets/8e001ab7-013f-42de-b9ef-11213e67bb36)
+
 
 ## Contributing
 
